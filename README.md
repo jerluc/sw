@@ -10,6 +10,10 @@ deviation of historical runs of the same shell command over time.
 To get started, install `sw` from source:
 
 ```shell
+# Directly from Github
+cargo install --git https://github.com/jerluc/sw.git
+
+# Or from local source
 git clone https://github.com/jerluc/sw.git && cd sw/ && cargo install --path .
 ```
 
